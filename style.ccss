@@ -42,10 +42,10 @@ section#slider div#left-img {
 }
 section#slider div#left-img img {
   position: relative;
-  margin-left: 300px;
+  margin-left: 30%;
 }
 section#slider div#text-slider {
   background-color: #c4d8e4;
 }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.ccss.map */
