@@ -19,6 +19,7 @@ nav{
             font-weight: 900;
             font-size: 1.5em;
             padding-left: 50px;
+            font-family: sans-serif;
         }
         a {
             text-decoration: none;
@@ -70,8 +71,12 @@ section
                     {
                         font-size: 3em;
                         margin-bottom: 10px;
+                        color: #59637a;
                     }
-                    p{font-size:1.4em;}
+                    p{
+                        font-size:1.4em;
+                        color: #59637a;
+                    }
                     input{
                         padding: 20px 60px 20px 60px;
                         background-color: #ff8465;
@@ -84,5 +89,28 @@ section
                     }
                 }
         }
-    }  
+    } 
+    &#benefits
+    {
+        background-color: #c4d8e4;
+        #benefits-left
+        {
+            width: 50%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            div
+            {
+                margin-left: 10%;
+            }
+        }
+        #benefits-rigth
+        {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 50%;
+        }
+    } 
 }

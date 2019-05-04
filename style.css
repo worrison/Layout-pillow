@@ -21,6 +21,7 @@ nav div h1 {
   font-weight: 900;
   font-size: 1.5em;
   padding-left: 50px;
+  font-family: sans-serif;
 }
 nav div a {
   text-decoration: none;
@@ -64,9 +65,11 @@ section#slider div#text-slider {
 section#slider div#text-slider h1 {
   font-size: 3em;
   margin-bottom: 10px;
+  color: #59637a;
 }
 section#slider div#text-slider p {
   font-size: 1.4em;
+  color: #59637a;
 }
 section#slider div#text-slider input {
   padding: 20px 60px 20px 60px;
@@ -76,6 +79,25 @@ section#slider div#text-slider input {
 section#slider div#text-slider p, section#slider div#text-slider h1, section#slider div#text-slider input {
   z-index: 99;
   margin-right: 50%;
+}
+section#benefits {
+  background-color: #c4d8e4;
+}
+section#benefits #benefits-left {
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+section#benefits #benefits-left div {
+  margin-left: 10%;
+}
+section#benefits #benefits-rigth {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
 }
 
 /*# sourceMappingURL=style.css.map */
