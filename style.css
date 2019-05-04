@@ -22,6 +22,13 @@ nav div h1 {
   font-size: 1.5em;
   padding-left: 50px;
 }
+nav div a {
+  text-decoration: none;
+  color: #59637a;
+  font-size: 1.1em;
+  font-weight: 600;
+  font-family: sans-serif;
+}
 nav div#logo {
   background-color: white;
 }
@@ -34,6 +41,9 @@ nav div#links {
 section {
   display: flex;
 }
+section#slider {
+  background-color: #c4d8e4;
+}
 section#slider div {
   width: 50%;
 }
@@ -42,10 +52,30 @@ section#slider div#left-img {
 }
 section#slider div#left-img img {
   position: relative;
-  margin-left: 300px;
+  margin-left: 30%;
 }
 section#slider div#text-slider {
   background-color: #c4d8e4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+section#slider div#text-slider h1 {
+  font-size: 3em;
+  margin-bottom: 10px;
+}
+section#slider div#text-slider p {
+  font-size: 1.4em;
+}
+section#slider div#text-slider input {
+  padding: 20px 60px 20px 60px;
+  background-color: #ff8465;
+  color: white;
+}
+section#slider div#text-slider p, section#slider div#text-slider h1, section#slider div#text-slider input {
+  z-index: 99;
+  margin-right: 50%;
 }
 
 /*# sourceMappingURL=style.css.map */
