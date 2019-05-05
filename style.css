@@ -75,6 +75,7 @@ section#slider div#text-slider input {
   padding: 20px 60px 20px 60px;
   background-color: #ff8465;
   color: white;
+  border: 0;
 }
 section#slider div#text-slider p, section#slider div#text-slider h1, section#slider div#text-slider input {
   z-index: 99;
@@ -97,7 +98,43 @@ section#benefits #benefits-rigth {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 50%;
+}
+section#energizing {
+  background-color: #c4d8e4;
+  height: 500px;
+}
+section#energizing #energizing-text {
+  background-color: #496096;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  padding: 50px;
+}
+section#energizing #energizing-text h1 {
+  font-size: 3em;
+  color: white;
+  margin-bottom: 10px;
+  font-weight: 900;
+  font-family: sans-serif;
+}
+section#energizing #energizing-text P {
+  width: 32%;
+  color: #b8e4ff;
+  font-size: 1.2em;
+  text-align: justify;
+  font-family: sans-serif;
+}
+section#energizing #energizing-text input {
+  padding: 20px 60px 20px 60px;
+  margin-top: 20px;
+  background-color: #ff8464;
+  color: whitesmoke;
+  border: 0;
+}
+section#energizing #free {
+  width: 20%;
 }
 
 /*# sourceMappingURL=style.css.map */
