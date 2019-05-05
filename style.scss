@@ -157,4 +157,65 @@ section
             width: 20%;
         }
     }
+    &#sleep
+    {
+        background-color: #c4d8e4;
+        div
+        {
+            img{
+                z-index: 99;
+                position: relative;
+            }
+        }
+        
+    }
+    &#carry
+    {
+        background-color: #c4d8e4;
+        height: 500px;
+        #free2
+        {
+            width: 20%;
+        }
+        #carry-text
+        {
+            background-color: #0692a5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            width: 100%;
+            padding: 50px;
+            position: absolute;
+            margin-top: -200px;
+            z-index: -0;
+            padding-top: 200px;
+            h1
+            {
+                font-size: 3em;
+                color: white;
+                margin-bottom: 10px;
+                font-weight: 900;
+                font-family: sans-serif;
+            }
+            P
+            {
+                width: 32%;
+                color: #b8e4ff;
+                font-size: 1.2em;
+                text-align: justify;
+                font-family: sans-serif;
+            }
+            input
+            {
+                padding: 20px 60px 20px 60px;
+                margin-top: 20px;
+                background-color: #ff8464;
+                color: whitesmoke;
+                border: 0;
+                
+            }
+        }
+    }
+    
 }
