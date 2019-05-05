@@ -144,11 +144,15 @@ section#sleep div img {
   position: relative;
 }
 section#carry {
-  background-color: #c4d8e4;
+  background-color: #0692a5;
   height: 500px;
 }
 section#carry #free2 {
   width: 20%;
+  background-color: #c4d8e4;
+  position: relative;
+  z-index: 999;
+  margin-top: -5px;
 }
 section#carry #carry-text {
   background-color: #0692a5;
@@ -159,7 +163,7 @@ section#carry #carry-text {
   width: 100%;
   padding: 50px;
   position: absolute;
-  margin-top: -200px;
+  margin-top: -180px;
   z-index: 0;
   padding-top: 200px;
 }
@@ -183,6 +187,26 @@ section#carry #carry-text input {
   background-color: #ff8464;
   color: whitesmoke;
   border: 0;
+}
+section#walk {
+  background-color: #0692a5;
+}
+section#walk div#walk-left {
+  background-color: #c4d8e4;
+  width: 25%;
+}
+section#walk div#walk-rigth {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+section#walk div#walk-rigth :first-child {
+  POSITION: relative;
+  TOP: 0;
+  MARGIN-RIGHT: 100PX;
+  MARGIN-LEFT: -600PX;
+  Z-INDEX: 999;
 }
 
 /*# sourceMappingURL=style.css.map */

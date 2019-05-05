@@ -171,11 +171,15 @@ section
     }
     &#carry
     {
-        background-color: #c4d8e4;
+        background-color: #0692a5;
         height: 500px;
         #free2
         {
             width: 20%;
+            background-color: #c4d8e4;
+            position: relative;
+            z-index: 999;
+            margin-top: -5px;
         }
         #carry-text
         {
@@ -187,7 +191,7 @@ section
             width: 100%;
             padding: 50px;
             position: absolute;
-            margin-top: -200px;
+            margin-top: -180px;
             z-index: -0;
             padding-top: 200px;
             h1
@@ -217,5 +221,31 @@ section
             }
         }
     }
+    &#walk
+     {
+        background-color: #0692a5;
+        div{
+            &#walk-left
+            {
+                background-color: #c4d8e4;
+                width: 25%;
+            }
+            &#walk-rigth
+            {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+                :first-child
+                {
+                    POSITION: relative;
+                    TOP: 0;
+                    MARGIN-RIGHT: 100PX;
+                    MARGIN-LEFT: -600PX;
+                    Z-INDEX: 999;
+                }
+            }
+        }
+     }
     
 }
